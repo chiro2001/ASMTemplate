@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "label": "build当前文件",
+      "type": "shell",
+      "command": "${workspaceRoot}\\make",
+      "args": [
+        "build",
+        "${fileBasename}"
+      ]
+    },
+    {
+      "label": "debug当前文件",
+      "type": "shell",
+      "command": "${workspaceRoot}\\make",
+      "args": [
+        "debug",
+        "${fileBasename}"
+      ]
+    },
+    {
+      "label": "start当前环境",
+      "type": "shell",
+      "command": "${workspaceRoot}\\make",
+      "args": [
+        "start",
+      ]
+    },
+    {
+      "label": "make vtest",
+      "type": "shell",
+      "command": "make",
+    }
+  ],
+  "version": "2.0.0"
+}
